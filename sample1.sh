@@ -1,0 +1,12 @@
+./veo-create.sh --project-id daev-playground \
+   --model veo-3.1-generate-preview \
+   --location us-central1 \
+   --aspect-ratio 16:9 \
+   --duration 8 \
+   --resolution 1080p \
+   --with-audio \
+   --person-generation allow_all \
+   --output-uri gs://daev-veo31-bucket \
+   --download-to ./bladerunner.mp4 \
+   --delete-after-download \
+   --prompt "create a realistic bladerunner scene, with an audio to match"

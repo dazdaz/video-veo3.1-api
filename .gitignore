@@ -1,0 +1,26 @@
+# Generated videos
+*.mp4
+*.mov
+*.avi
+
+# Temporary files
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup files
+*~
+*.bak
+
+# Test files
+test-*
+bladerunner*
